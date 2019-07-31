@@ -1,0 +1,5 @@
+CREATE TABLE tipo_direccion (
+    id INT NOT NULL GENERATED ALWAYS AS IDENTITY
+  , descripcion VARCHAR(100) NOT NULL
+  , PRIMARY KEY (id)
+); 
